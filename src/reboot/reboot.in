@@ -7,7 +7,7 @@ while getopts :nwdfhik opt; do
 		n) ;;
 		w) poweroff_arg=--write-only ;;
 		d) option_arg=--no-write ;;
-		f) ;;
+		f) option_arg=--force ;;
 		h) ;;
 		i) ;;
 		k) poweroff_arg=--kexec ;;
